@@ -2,8 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #77aa77;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #ff7700;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%235c3a75' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23582c5d' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2337378a' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%237a0634' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23590b57' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%237c1a62' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%232c3495' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23162377' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%231f41a9' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%234b2389' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%230367d3' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%232a58d3' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
 }
