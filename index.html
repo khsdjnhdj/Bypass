@@ -21,17 +21,9 @@
     
     
 <div class="video-player">    
-    <script type="text/javascript">
-    function go_get(){
-     var base_url = 'http://www.youtube.com/embed?listType=search&list=';
-     var search_field = document.getElementById('yourtextfield').value;
-     var target_url = base_url + search_field;
-     var ifr = document.getElementById('youriframe');
-     ifr.src = target_url;
-     return false;
-    }
-    </script> 
-
+    
+    <script src="video.js"></script>
+    
     <form onsubmit="go_get(); return false;" >
      <input type="text"  id="yourtextfield"/>
      <input type="submit" value="Search" />
@@ -41,7 +33,13 @@
 </div>  
     
 <div class="ads-block">
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6443594198772512",
+    enable_page_level_ads: true
+  });
+</script>
 </div> 
     
 <div>
