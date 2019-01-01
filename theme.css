@@ -65,7 +65,9 @@ header h1{
 
 .search-box{
     width: 250px;
-    padding-left: 10%   
+    padding-left: 10%;
+    position: fixed;
+        
 }
 
 .top-bar{
