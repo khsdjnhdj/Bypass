@@ -80,11 +80,12 @@ header h1{
     padding: 10;
     margin-left: 10%;
     margin-right: 10%;
+    float: right;
     
 }
 .ads-block{
     margin-left: 10%;
 }
 .ads-block2{
-    float: left;
+
 }
