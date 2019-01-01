@@ -1,68 +1,84 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #ff7700;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%235c3a75' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23582c5d' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2337378a' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%237a0634' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23590b57' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%237c1a62' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%232c3495' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23162377' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%231f41a9' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%234b2389' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%230367d3' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%232a58d3' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #ffffff;
+    
 }
 
 .video-player{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left:10%;
+    padding-top: 10em;
+ 
 }
 form{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 50%;
+    margin-top: 6%;
     bottom: 0
     position: absolute;
     border: none;
-    width: 500px;
+    width: 50em;
+    float: left;
 }
 input{
-    position: relative;
+    position:relative;
     display: inline-block;
     font-size: 20px;
     box-sizing: border-box;
+    
 }
 
 input[type="text"]{
-    font-family: 'Roboto', sans-serif;
-    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: #F3F3F3;
     width: 340px;
     height: 50px;
     border: none;
     outline: none;
     padding: 0 25px;
     border-radius: 25px 0 0 25px;
+    color: black;
 }
 
 input[type="submit"]{
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    border-radius: 0 25px 25px 0;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    border-radius: 0 0 25px;
     width: 155px;
     height: 50px;
     border: none;
     cursor: pointer;
-    background: #e84118;
-    color: #fff;
+    background: #CFD8DC;
+    color: #7B8D93;
     
 }
-
-p{
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: white;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 32%;
+header{
+    padding:0%;
+    margin: 0%;
 }
 
-h1{
-    color: white;
-    font-size: 25px;
-    padding-left: 5%;
+header h1{
+    color: #7B8D93;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    width: 20%
+}
+
+.search-box{
+    width: 250px;
+    padding-left: 10%   
+}
+
+.top-bar{
+    position: fixed;
+    background-color: #F8F8FC;
+    width: 100%
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 10;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }

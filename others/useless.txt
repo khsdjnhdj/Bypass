@@ -1,0 +1,4 @@
+<div class="main-text">
+    <p>Hello, my people. Here you can view all your favourate video bypassing any restrictions. All you have do is search for a keyword and an playlist of videos will apear and you will be able to watch it scot free. Please enjoy with moderation.
+    </p>
+</div>
